@@ -1,0 +1,12 @@
+# VoxLocal · Python 3.10–3.12 (Coqui TTS aún no soporta 3.14)
+# PyTorch se instala antes con setup.ps1 (CUDA si hay GPU NVIDIA, CPU si no).
+coqui-tts>=0.24
+six  # dependencia no declarada de coqui-tts
+huggingface_hub
+noisereduce>=3.0
+librosa>=0.10
+soundfile>=0.12
+scipy
+numpy
+gradio>=4.44
+pytest

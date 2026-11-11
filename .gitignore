@@ -1,0 +1,19 @@
+# Entorno de Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Modelos descargados (se obtienen con download_models.py)
+models/
+
+# Datos personales: voces clonadas y audios generados
+voices/
+outputs/
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
